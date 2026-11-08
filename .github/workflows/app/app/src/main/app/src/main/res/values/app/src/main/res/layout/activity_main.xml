@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N160 TBT Tester"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Safety-locked diagnostic prototype — TBT characteristic only. Test only while parked."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Status"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/scanButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="SCAN BLE DEVICES" />
+
+        <ListView
+            android:id="@+id/deviceList"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="TBT test instructions"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEFT — 500 m" />
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RIGHT — 500 m" />
+
+        <Button
+            android:id="@+id/uturnButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="U-TURN — 500 m" />
+
+        <Button
+            android:id="@+id/straightButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STRAIGHT — 500 m" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="STOP NAVIGATION TEST" />
+
+    </LinearLayout>
+</ScrollView>
